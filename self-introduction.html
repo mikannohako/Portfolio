@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mikannohako Portfolio</title>
-    <!-- 可愛いGoogle Fonts追加 -->
+    <title>About | mikannohako</title>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- ヘッダーは index.html と同じでOK -->
     <header class="header">
         <h1>
             <a href="index.html">mikannohako</a>
@@ -30,31 +30,24 @@
     </header>
 
     <section class="hero">
-        <h2>Welcome to My Portfolio</h2>
-        <p>ここは、私の作った作品やプロジェクトをまとめたポートフォリオサイトです。</p>
+    <h2>自己紹介</h2>
+    <p>こんにちは！mikannohako です。<br>
+    普段は暇なときに気楽にプログラム書いています。
+    </p>
     </section>
 
-    <!-- 近況カード部分 -->
     <section class="cards">
-    
-        <a href="self-introduction.html" class="card">
-                <div class="card-icon">📚</div>
-                <h3>自己紹介</h3>
-                <p>資格勉強を進めてます！</p>
-        </a>
-        
-        <a href="./development_diary.html" class="card">
-                <div class="card-icon">💻</div>
-                <h3>開発日記</h3>
-                <p>新しいツールを試作中！</p>
-        </a>
-
-        <a href="./past_works.html" class="card">
-                <div class="card-icon">🌱</div>
-                <h3>段ボール箱</h3>
-                <p>過去に作ったソフトなど！</p>
-        </a>
-
+    <div class="card">
+        <h3>自己紹介</h3>
+        <p>プログラミングが好きで、いろんなツールやWebサイトを作ってます。</p>
+    </div>
+    <div class="card">
+        <h3 h3>保有資格</h3>
+        <ul style="list-style: disc; text-align: left; max-width: 300px; margin: 0 auto;">
+        <li>実用数学技能検定3級</li>
+        <!-- 他にあれば追加 -->
+        </ul>
+    </div>
     </section>
 
     <footer>
