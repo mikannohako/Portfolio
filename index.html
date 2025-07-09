@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-		<meta charset="UTF-8">
-		<title>みかんの箱の輸送日記</title>
-	</head>
-	<body>
-		<h1>こんにちは！ここでは私についていろいろ書いています。</h1>
-		<p>作品紹介</p>
-	</body>
-</html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mikannohako Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #333;
+      background: #fff;
+    }
+    header {
+      background: #004aad;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    .hero {
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 48px;
+      margin: 0 0 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+    footer {
+      background: #f2f2f2;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>mikannohako</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
 
+  <section class="hero">
+    <h2>Welcome to My Portfolio</h2>
+    <p>これは、私の作った作品やプロジェクトをまとめたポートフォリオサイトです。</p>
+  </section>
+
+  <footer>
+    &copy; 2025 mikannohako. All rights reserved.
+  </footer>
+</body>
+</html>
